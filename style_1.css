@@ -1,0 +1,114 @@
+body {
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+    height: 480px;
+    width: 380px;
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: absolute;
+    box-shadow: rgb(250, 59, 250);
+    border-radius: 30px;
+    transition: 0.5s;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    transition: 0.5s;
+
+}
+
+.input {
+    top: 50px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.input input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(145, 141, 141);
+    background: transparent;
+    outline: none;
+    color: black;
+}
+
+.t_input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+form p {
+    font-size: 14px;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, salmon, rgb(255, 64, 255));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+button[type="submit"]:hover {
+    background: rgb(183, 64, 243);
+    color: #fff;
+}
+
+button p {
+    text-shadow: 2px 3px 4px rgb(100, 95, 95);
+    width: 85%;
+    padding: 10px;
+    margin: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+
+p[type="title"]:hover {
+    background: linear-gradient(to right, salmon, rgb(255, 64, 255));
+    color: #fff;
+}
+
+.check-box {
+    margin: 30px 10px;
+}
+
+span {
+    font-size: 14px;
+    position: relative;
+}
+
+#login {
+    left: 50px;
+}
+
+#register {
+    left: 450px;
+}
